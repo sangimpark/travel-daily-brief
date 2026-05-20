@@ -1,0 +1,15 @@
+# 개인 데이터 — repo에 올리지 않음 (.example 양식만 공개)
+skills/cpa-daily-brief/data/sources.json
+skills/cpa-daily-brief/data/briefs/
+
+# OS·에디터 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# 임시 파일
+/tmp/
+*.log

@@ -1,0 +1,35 @@
+{
+  "_comment": "이 파일은 광고주/CPA 플랫폼 URL 등록 템플릿입니다. 첫 발동 시 cpa-daily-brief 스킬이 사용자에게 받은 URL들로 sources.json (확장자 .example 빼고)을 만듭니다. 또는 사용자가 직접 sources.json을 만들어 미리 등록할 수도 있습니다.",
+  "sources": [
+    {
+      "name": "쿠팡파트너스",
+      "url": "https://partners.coupang.com/",
+      "type": "cpa_platform",
+      "notes": "쿠팡 어필리에이트. 점검할 페이지: 캠페인 목록, 상품 단가"
+    },
+    {
+      "name": "텐핑",
+      "url": "https://www.tenping.kr/",
+      "type": "cpa_platform",
+      "notes": "광고주 다수 보유. 점검할 페이지: 신규 캠페인, 단가 변경"
+    },
+    {
+      "name": "DBdigital",
+      "url": "https://example.com",
+      "type": "cpa_platform",
+      "notes": "사용자가 실제로 보는 사이트로 교체"
+    },
+    {
+      "name": "아이허브",
+      "url": "https://example.com",
+      "type": "advertiser",
+      "notes": "특정 광고주 직접 점검 — 멤버십 행사, 할인 코드"
+    },
+    {
+      "name": "카카오모먼트",
+      "url": "https://example.com",
+      "type": "advertiser",
+      "notes": "광고 캠페인 확인"
+    }
+  ]
+}

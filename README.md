@@ -56,18 +56,18 @@
 
 2. **스킬을 `~/.claude/skills/`에 복사**:
    ```bash
-   cp -r skills/cpa-daily-brief ~/.claude/skills/
+   cp -r skills/travel-daily-brief ~/.claude/skills/
    ```
 
 3. **광고주 데이터 파일 준비**:
    ```bash
-   cd ~/.claude/skills/cpa-daily-brief/data/
+   cd ~/.claude/skills/travel-daily-brief/data/
    cp sources.json.example sources.json
    ```
    `sources.json`을 본인이 보고 싶은 광고주 사이트로 수정하거나, 그대로 7곳 사용.
 
 4. **첫 발동**:
-   - Claude Code 채팅에서 `/오늘추천` 입력
+   - Claude Code 채팅에서 `/여행리포트` 또는 "오늘 여행 추천" 입력
    - 첫 발동 시 Chrome 익스텐션 페어링 + 3hoursahead 로그인 (한 번만)
    - 그 다음부터는 매일 한 번 발동만 하면 자동
 
@@ -76,7 +76,7 @@
 ## 📅 매일 사용 흐름
 
 매일 아침 (Claude Code 열어둔 상태에서):
-1. `/오늘추천` 또는 "오늘 추천 알려줘" 입력
+1. `/여행리포트` 또는 "오늘 여행 추천 알려줘" 입력
 2. 1장 표 받기
 3. 끝.
 
@@ -100,7 +100,7 @@ travel-daily-brief/
 ├── README.md
 ├── .gitignore
 └── skills/
-    └── cpa-daily-brief/
+    └── travel-daily-brief/
         ├── SKILL.md                       # 스킬 정의 (트리거, 4단계, Output)
         └── data/
             └── sources.json.example       # 7사 광고주 양식 (본인 sources.json으로 복사)
